@@ -13,6 +13,8 @@ fn main() {
                 // provo a convertirle in int32 e se mi da errore perche 
                 // la riga e' vuota, so che l'elfo e' cambiato
 
+                // TODO: salvare i dati sommati per ogni elfo in un array
+
                 if let Ok(res) = res {
                     println!("{}", res)
                 } else {
